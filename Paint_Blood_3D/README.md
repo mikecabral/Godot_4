@@ -14,4 +14,4 @@ I don't see any tutorials on how to do this online for 3D.. so it took me a litt
 
 4. Adjust other variables in the inspector as necessary.. such as decal size, collision sizes, ect
 
-![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Paint_Blood_3D/blood.png)
+![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Paint_Blood_3D/thumbnail.png)
