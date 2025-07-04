@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://c8g8ithfwc4of"]
+
+[ext_resource type="Script" path="res://textures/decals/new_blood/blood_particle.gd" id="1_4slaa"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r8bhy"]
+transparency = 1
+albedo_color = Color(1.5, 0, 0, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_unmj2"]
+material = SubResource("StandardMaterial3D_r8bhy")
+size = Vector3(0.02, 0.02, 0.02)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_idqgl"]
+points = PackedVector3Array(0.01, 0.01, 0.01, 0.01, 0.01, -0.01, -0.01, 0.01, 0.01, 0.01, -0.01, 0.01, 0.01, -0.01, -0.01, -0.01, 0.01, -0.01, -0.01, -0.01, 0.01, -0.01, -0.01, -0.01)
+
+[node name="BloodParticle" type="Area3D"]
+collision_mask = 15
+priority = 1
+script = ExtResource("1_4slaa")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_unmj2")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("ConvexPolygonShape3D_idqgl")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
