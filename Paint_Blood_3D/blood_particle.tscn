@@ -8,21 +8,20 @@ albedo_color = Color(1.5, 0, 0, 1)
 
 [sub_resource type="BoxMesh" id="BoxMesh_unmj2"]
 material = SubResource("StandardMaterial3D_r8bhy")
-size = Vector3(0.02, 0.02, 0.02)
+size = Vector3(0.05, 0.05, 0.05)
 
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_idqgl"]
-points = PackedVector3Array(0.01, 0.01, 0.01, 0.01, 0.01, -0.01, -0.01, 0.01, 0.01, 0.01, -0.01, 0.01, 0.01, -0.01, -0.01, -0.01, 0.01, -0.01, -0.01, -0.01, 0.01, -0.01, -0.01, -0.01)
+[sub_resource type="BoxShape3D" id="BoxShape3D_rbxp0"]
+size = Vector3(0.04, 0.04, 0.04)
 
 [node name="BloodParticle" type="Area3D"]
 collision_mask = 15
-priority = 1
 script = ExtResource("1_4slaa")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("BoxMesh_unmj2")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-shape = SubResource("ConvexPolygonShape3D_idqgl")
+shape = SubResource("BoxShape3D_rbxp0")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="body_exited" from="." to="." method="_on_body_exited"]
