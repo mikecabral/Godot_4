@@ -1,6 +1,6 @@
 ## Introduction
 
-Basic Shooting Light Fixtures and Bulbs in 3D for Godot 4.3...
+Basic Shooting Light Fixtures and Bulbs (Static and Dynamic) in 3D for Godot 4.3...
 
 I don't see any tutorials on how to do this online for 3D.. so it took me a little while to figure out.
 
