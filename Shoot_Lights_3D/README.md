@@ -6,21 +6,21 @@ I don't see any tutorials on how to do this online for 3D.. so it took me a litt
 
 ### How to Use
 
-1. Create a New 3D Scene.. change the Root Node type from Node3D to RigidBody3D. Name it Pot_Light (as an example).
+1. Create a **New 3D Scene**.. change the **Root Node** type from **Node3D** to **RigidBody3D**. Name it **Pot_Light** (as an example).
 
-2. Add the Light Fixture's MeshInstance3D and CollisionShape3D as children of the Root Node.
+2. Add the Light Fixture's **MeshInstance3D** and **CollisionShape3D** as **children** of the **Root Node**.
 
-3. Add a RigidBody3D as a child of the Root Node. Name it Bulb (as an example). Add the Bulb's MeshInstance3D and CollisionShape3D as children of the newly created RigidBody3D Node.
+3. Add a **RigidBody3D** as a **child** of the **Root Node**. Name it **Bulb** (as an example). Add the Bulb's **MeshInstance3D** and **CollisionShape3D** as **children** of the newly created **RigidBody3D Node**.
 
-4. Add script Light_Fixtures.gd to the Root Node RigidBody3D (Pot_Light).
+4. Add script **Light_Fixtures.gd** to the Root Node **RigidBody3D (Pot_Light)**.
  
-5. Add script Bulb.gd to RigidBody3D (Bulb)
+5. Add script **Bulb.gd** to **RigidBody3D (Bulb)**
 
-6. Make sure the Root Node (Light_Fixture) is in a Global Group called Light_Fixture.
+6. Make sure the Root Node **(Light_Fixture)** is in a **Global Group** called **Light_Fixture**.
 
-7. Make sure the RigidBody3D (Bulb) is in a Global Group called Light_Bulb.
+7. Make sure the RigidBody3D **(Bulb)** is in a **Global Group** called **Light_Bulb**.
 
-8. This last step depends how you detect collisions... but this is what i've got in my init_weapons.gd
+8. This last step depends **how you detect collisions**... but this is what i've got in my **init_weapons.gd**
 
 ```
 func hit_scan_damage(collider: Object, _direction: Vector3, _position: Vector3, _weapon_damage: int) -> void:
@@ -47,7 +47,7 @@ func hit_scan_damage(collider: Object, _direction: Vector3, _position: Vector3, 
 ```
 
 
-and this is what i've got in my bullet.gd script (attached to my projectile)
+and this is what i've got in my **bullet.gd** script (attached to my projectile RigidBody3D)
 
 ```
 func _on_body_entered(body: Node) -> void:
@@ -78,7 +78,7 @@ func _on_body_entered(body: Node) -> void:
 
 ```
 
-That's it! Have fun!
+### That's it! Have fun!
 
 ![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shoot_Lights_3D/thumbnail.png)
 
