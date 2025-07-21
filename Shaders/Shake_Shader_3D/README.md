@@ -4,9 +4,9 @@ Shake Shader or Earthquake Shader, whatever you wanna call it... in 3D for Godot
 
 Original 2D Shader from @FencerDevLog (YouTube) available here:
 ###### Click to Image watch the Video
-[![Watch the video](https://github.com/mikecabral/Godot_4/blob/main/Shake_Shader_3D/thumbnail.png)](https://www.youtube.com/watch?v=Kb7dFMtOaSM)
+[![Watch the video](https://github.com/mikecabral/Godot_4/blob/main/Shaders/Shake_Shader_3D/thumbnail.PNG)](https://www.youtube.com/watch?v=Kb7dFMtOaSM)
 
-![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shake_Shader_3D/thumbnail2.png)
+![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/Shake_Shader_3D/thumbnail2.PNG)
 
 ### How to Use
 

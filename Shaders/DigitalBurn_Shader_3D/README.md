@@ -4,9 +4,9 @@ Digital Burn Shader in 3D for Godot 4.3...
 
 Original 2D Shader from @FencerDevLog (YouTube) available here:
 ###### Click to Image watch the Video
-[![Watch the video](https://github.com/mikecabral/Godot_4/blob/main/DigitalBurn_Shader_3D/thumbnail.png)](https://www.youtube.com/watch?v=ut8rm1XRmo4)
+[![Watch the video](https://github.com/mikecabral/Godot_4/blob/main/Shaders/DigitalBurn_Shader_3D/thumbnail.PNG)](https://www.youtube.com/watch?v=ut8rm1XRmo4)
 
-![Alt text](https://github.com/mikecabral/Godot_4/blob/main/DigitalBurn_Shader_3D/thumbnail2.png)
+![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/DigitalBurn_Shader_3D/thumbnail2.PNG)
 
 
 

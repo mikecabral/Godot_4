@@ -4,7 +4,7 @@ Speed Shader in 3D for Godot 4.3...
 
 Original 2D Shader from @FencerDevLog (YouTube) available here:
 ###### Click to Image watch the Video
-[![Watch the video](https://github.com/mikecabral/Godot_4/blob/main/Speed_Shader_3D/thumbnail.png)](https://www.youtube.com/watch?v=ZGpP5I_0qrg)
+[![Watch the video](https://github.com/mikecabral/Godot_4/blob/main/Shaders/Speed_Shader_3D/thumbnail.PNG)](https://www.youtube.com/watch?v=ZGpP5I_0qrg)
 
 
 ### How to Use
