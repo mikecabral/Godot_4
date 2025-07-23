@@ -6,6 +6,13 @@ Original 2D Shader from @FencerDevLog (YouTube) available here:
 ###### Click to Image watch the Video
 [![Watch the video](https://github.com/mikecabral/Godot_4/blob/main/Shaders/ColorPalette_Shader_3D/thumbnail.PNG)](https://www.youtube.com/watch?v=a_GEf_nGMNE)
 
+![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/ColorPalette_Shader_3D/thumbnail2.PNG)
+
+![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/ColorPalette_Shader_3D/thumbnail3.PNG)
+
+![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/ColorPalette_Shader_3D/thumbnail4.PNG)
+
+
 There are more palette colors if you wish to swap them out or add more in **ALL_Palette_Colors.gd**
 
 ### How to Use
