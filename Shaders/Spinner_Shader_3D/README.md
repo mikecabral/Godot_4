@@ -6,8 +6,6 @@ Original 2D Shader from @FencerDevLog (YouTube) available here:
 ###### Click to Image watch the Video
 [![Watch the video](https://github.com/mikecabral/Godot_4/blob/main/Shaders/Spinner_Shader_3D/thumbnail.PNG)](https://www.youtube.com/watch?v=KS67q_pOcD0)
 
-![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/Spinner_Shader_3D/thumbnail.PNG)
-
 ![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/Spinner_Shader_3D/thumbnail2.PNG)
 
 ![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/Spinner_Shader_3D/thumbnail3.PNG)
