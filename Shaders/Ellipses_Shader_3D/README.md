@@ -14,9 +14,9 @@ Original 2D Shader from @FencerDevLog (YouTube) available here:
 
 #### Enhanced versions of Shaders available on my Patreon.
 
-![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/CandleFlame_Shader_3D/enhanced.PNG)
+![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/Ellipses_Shader_3D/enhanced.PNG)
 
-![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/CandleFlame_Shader_3D/enhanced2.PNG)
+![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/Ellipses_Shader_3D/enhanced2.PNG)
 
 ### How to Use
 
