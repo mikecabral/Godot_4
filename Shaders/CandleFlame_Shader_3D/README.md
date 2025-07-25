@@ -6,6 +6,15 @@ Original 2D Shader from @FencerDevLog (YouTube) available here:
 ###### Click to Image watch the Video
 [![Watch the video](https://github.com/mikecabral/Godot_4/blob/main/Shaders/CandleFlame_Shader_3D/thumbnail.PNG)](https://www.youtube.com/watch?v=6ZZVwbzE8cw)
 
+#### Enhanced versions of Shaders available on my Patreon.
+
+![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/CandleFlame_Shader_3D/enhanced.PNG)
+
+![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/CandleFlame_Shader_3D/enhanced2.PNG)
+
+![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/CandleFlame_Shader_3D/enhanced3.PNG)
+
+![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/CandleFlame_Shader_3D/enhanced4.PNG)
 
 ### How to Use
 

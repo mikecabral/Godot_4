@@ -9,6 +9,13 @@ Original 2D Shader from @FencerDevLog (YouTube) available here:
 
 ![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/Lightning_Shader_3D/thumbnail2.PNG)
 
+#### Enhanced versions of Shaders available on my Patreon.
+
+![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/Lightning_Shader_3D/enhanced.PNG)
+
+![Alt text](https://github.com/mikecabral/Godot_4/blob/main/Shaders/Lightning_Shader_3D/enhanced2.PNG)
+
+
 ### How to Use
 
 1. Create a ColorRect, add a new ShaderMaterial, click on Shader, add a New Shader. Name it lightning_effect.gdshader for example.
